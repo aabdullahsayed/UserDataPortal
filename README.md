@@ -22,20 +22,15 @@
 
 The project folder **YourApp** is structured as follows:  
 
-YourApp/
-├── index.html                        # Static front-end form
-├── src/
-│   └── com/example/
-│       └── UserServlet.java          # Java servlet source code
-├── WEB-INF/
-│   ├── web.xml                       # Servlet and URL mapping configuration
-│   ├── classes/
-│   │   └── com/example/
-│   │       └── UserServlet.class     # Compiled servlet (output of javac)
-│   └── lib/
-│       ├── mysql-connector-java.jar  # JDBC driver
-│       └── jakarta.servlet-api.jar   # Jakarta Servlet API
+## Project Structure  
 
+The **YourApp** project consists of the following main components:
+
+- **index.html**: The static front-end form where users can input their name and email.  
+- **src/com/example/UserServlet.java**: The Java servlet that handles form submissions and interacts with the database.  
+- **WEB-INF/web.xml**: The deployment descriptor that maps URLs to servlets.  
+- **WEB-INF/classes/com/example/UserServlet.class**: The compiled servlet generated from the Java source file.  
+- **WEB-INF/lib/**: Contains required libraries including `mysql-connector-java.jar` (JDBC driver) and `jakarta.servlet-api.jar` (Servlet API).  
 
 ## Servlet Compilation  
 
