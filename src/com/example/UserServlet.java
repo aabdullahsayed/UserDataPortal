@@ -14,7 +14,7 @@ public class UserServlet extends HttpServlet {
 
         String dbURL = "jdbc:mysql://localhost:3306/first_db";
         String dbUser = "root";
-        String dbPass = "30Sayed@03";
+        String dbPass = "";
 
         res.setContentType("text/html");
         PrintWriter out = res.getWriter();
